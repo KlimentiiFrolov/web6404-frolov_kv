@@ -1,0 +1,107 @@
+﻿body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #F7F9FC;
+    color: #10233F;
+}
+
+header {
+    background-color: #2563EB;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+    background-color: darkblue;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color:white;
+}
+
+nav a:hover {
+    color: #93C5FD;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+}
+
+.service-card {
+    background-color: #ADD8E6;
+    padding: 20px;
+    margin: 0 0 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #2563EB;
+}
+
+.mentor-photo {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #E2E8F0;
+}
+
+h2 {
+    color: #1D4ED8;
+}
+
+.service-card h3 {
+    color: #10233F;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #CBD5E1;
+}
+
+th {
+    background-color: #2563EB ;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EFF6FF;
+}
+
+.name {
+    text-align: left;
+}
+
+.company {
+    text-align: center;
+}
+
+.employment {
+    text-align: right;
+}
