@@ -79,3 +79,27 @@ lab2/
 В ходе лабораторной работы был разработан многостраничный информационный веб-сайт DS Mentor с использованием HTML и CSS.
 
 Были закреплены навыки создания HTML-документов, работы с таблицами, ссылками, изображениями, CSS-селекторами, блочной моделью и Flexbox.
+
+## Лабораторная работа №3
+
+Тема: Основы JavaScript.
+
+Реализованы 10 функций в файле `lab3/src/core.js`:
+- isInteger
+- even
+- sumTo
+- recSumTo
+- factorial
+- isBinary
+- fibonacci
+- getOperationFn
+- sequence
+- deepEqual
+
+### Запуск тестов
+
+cd lab3
+npm install
+npm test
+
+Результат: 16 тестов успешно пройдены.
