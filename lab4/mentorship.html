@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виды услуг — DS Mentor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="site-header__title">DS Mentor</h1>
+        <p class="site-header__subtitle">Индивидуальное менторство в Data Science</p>
+    </header>
+    <nav class="site-nav">
+        <a class="site-nav__link" href="index.html">О менторстве</a>
+        <a class="site-nav__link" href="mentorship.html">Виды услуг</a>
+        <a class="site-nav__link" href="mentor.html">О менторе</a>
+        <a class="site-nav__link" href="cases.html">Успешные кейсы</a>
+    </nav>
+    <main class="page">
+        <section class="page__section">
+            <h2 class="page__heading">Форматы менторства</h2>
+            <div class="services">
+                <div class="services__card">
+                    <h3>Индивидуальное наставничество</h3>
+                    <p>Персональная работа один на один. Разбор целей, построение пошагового плана и регулярные созвоны для контроля прогресса.</p>
+                </div>
+                <div class="services__card">
+                    <h3>Групповой трекинг</h3>
+                    <p>Работа в небольших группах. Обмен опытом, разбор кейсов участников и взаимная мотивация под руководством ментора.</p>
+                </div>
+                <div class="services__card">
+                    <h3>Разовая менторская сессия</h3>
+                    <p>Консультация для решения конкретного вопроса, аудита текущей стратегии или преодоления затруднения.</p>
+                </div>
+            </div>
+        </section>
+        <section class="page__section">
+            <h2 class="page__heading">Варианты записи</h2>
+            <table class="data-table">
+                <thead class="data-table__head">
+                    <tr class="data-table__row"><th class="data-table__heading">Услуга</th><th class="data-table__heading">Продолжительность</th><th class="data-table__heading">Стоимость</th></tr>
+                </thead>
+                <tbody class="data-table__body">
+                    <tr class="data-table__row"><td class="data-table__cell">Индивидуальное наставничество</td><td class="data-table__cell">1 месяц</td><td class="data-table__cell">15 000</td></tr>
+                    <tr class="data-table__row"><td class="data-table__cell">Групповой трекинг</td><td class="data-table__cell">2 месяца</td><td class="data-table__cell">8 000</td></tr>
+                    <tr class="data-table__row"><td class="data-table__cell">Разовая менторская сессия</td><td class="data-table__cell">60 минут</td><td class="data-table__cell">3 000</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="page__section">
+            <h2 class="page__heading">Запись на консультацию</h2>
+            <form class="application-form" id="application-form" action="/submit" method="post">
+                <label class="application-form__label" for="student-name">Имя</label>
+                <input class="application-form__input" type="text" id="student-name" name="studentName" required>
+
+                <label class="application-form__label" for="student-email">Электронная почта</label>
+                <input class="application-form__input" type="email" id="student-email" name="studentEmail" required>
+
+                <label class="application-form__agreement">
+                    <input class="application-form__checkbox" type="checkbox" id="consent" name="consent" value="yes" required>
+                    Согласен на обработку данных
+                </label>
+
+                <button class="application-form__button" type="submit">Отправить заявку</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p class="site-footer__text">Учебный сайт: Менторство DS, студент Фролов Климентий, 6404-010302D.</p>
+    </footer>
+</body>
+</html>
